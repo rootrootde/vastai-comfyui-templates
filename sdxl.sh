@@ -17,16 +17,16 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/AIrjen/OneButtonPrompt"
-    "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    "https://github.com/SeargeDP/SeargeSDXL"
-    "https://github.com/lgldlk/ComfyUI-PC-ding-dong"
-    "https://github.com/MoonGoblinDev/Civicomfy"
-    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/yolain/ComfyUI-Easy-Use"
-    "https://github.com/fairy-root/Flux-Prompt-Generator"
-    "https://github.com/welltop-cn/ComfyUI-TeaCache"
+    "https://github.com/AIrjen/OneButtonPrompt" # 📁 AIrjen/OneButtonPrompt
+    "https://github.com/rgthree/rgthree-comfy" # 📁 rgthree/rgthree-comfy
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts" # 📁 pythongosssss/ComfyUI-Custom-Scripts
+    "https://github.com/SeargeDP/SeargeSDXL" # 📁 SeargeDP/SeargeSDXL
+    "https://github.com/lgldlk/ComfyUI-PC-ding-dong" # 📁 lgldlk/ComfyUI-PC-ding-dong
+    "https://github.com/MoonGoblinDev/Civicomfy" # 📁 MoonGoblinDev/Civicomfy
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack" # 📁 ltdrdata/ComfyUI-Impact-Pack
+    "https://github.com/yolain/ComfyUI-Easy-Use" # 📁 yolain/ComfyUI-Easy-Use
+    "https://github.com/fairy-root/Flux-Prompt-Generator" # 📁 fairy-root/Flux-Prompt-Generator
+    "https://github.com/welltop-cn/ComfyUI-TeaCache" # 📁 welltop-cn/ComfyUI-TeaCache
 )
 
 WORKFLOWS=(
@@ -34,8 +34,10 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
-    "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors"
+    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors" # stabilityai/stable-diffusion-xl-base-1.0 - sd_xl_base_1.0_0.9vae.safetensors
+    "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors" # stabilityai/stable-diffusion-xl-refiner-1.0 - sd_xl_refiner_1.0_0.9vae.safetensors
+    "https://civitai.com/api/download/models/1759168" # 🎨 Juggernaut XL (Ragnarok_by_RunDiffusion) by Unknown
+    "https://civitai.com/api/download/models/1761560" # 🎨 WAI-NSFW-illustrious-SDXL (v14.0) by Unknown
 )
 
 UNET_MODELS=(
@@ -43,11 +45,11 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors" # stabilityai/stable-diffusion-xl-base-1.0 - sd_xl_offset_example-lora_1.0.safetensors
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors"
+    "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors" # madebyollin/sdxl-vae-fp16-fix - sdxl_vae.safetensors
 )
 
 ESRGAN_MODELS=(
@@ -55,17 +57,17 @@ ESRGAN_MODELS=(
 )
 
 UPSCALE_MODELS=(
-    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth"
-    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NMKD-Siax_200k.pth"
-    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_Nickelback_70000G.pth"
-    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/1x-ITF-SkinDiffDetail-Lite-v1.pth"
+    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth" # 🤗 4x-UltraSharp.pth
+    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NMKD-Siax_200k.pth" # 🤗 4x_NMKD-Siax_200k.pth
+    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_Nickelback_70000G.pth" # 🤗 4x_Nickelback_70000G.pth
+    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/1x-ITF-SkinDiffDetail-Lite-v1.pth" # 🤗 1x-ITF-SkinDiffDetail-Lite-v1.pth
 )
 
 CONTROLNET_MODELS=(
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors"
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors"
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-recolor-rank256.safetensors"
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-sketch-rank256.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors" # stabilityai/control-lora - control-lora-canny-rank256.safetensors
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors" # stabilityai/control-lora - control-lora-depth-rank256.safetensors
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-recolor-rank256.safetensors" # stabilityai/control-lora - control-lora-recolor-rank256.safetensors
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-sketch-rank256.safetensors" # stabilityai/control-lora - control-lora-sketch-rank256.safetensors
 )
 
 ANNOTATOR_MODELS=(
@@ -73,7 +75,7 @@ ANNOTATOR_MODELS=(
 )
 
 CLIP_VISION_MODELS=(
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors" # stabilityai/control-lora - clip_vision_g.safetensors
 )
 
 TEXT_ENCODER_MODELS=(
@@ -81,6 +83,18 @@ TEXT_ENCODER_MODELS=(
 )
 
 DIFFUSION_MODELS=(
+
+)
+
+CLIP_MODELS=(
+
+)
+
+STYLE_MODELS=(
+
+)
+
+PULID_MODELS=(
 
 )
 
@@ -102,6 +116,9 @@ function provisioning_start() {
     provisioning_get_files "${COMFYUI_DIR}/models/clip_vision" "${CLIP_VISION_MODELS[@]}"
     provisioning_get_files "${COMFYUI_DIR}/models/text_encoders" "${TEXT_ENCODER_MODELS[@]}"
     provisioning_get_files "${COMFYUI_DIR}/models/diffusion_models" "${DIFFUSION_MODELS[@]}"
+    provisioning_get_files "${COMFYUI_DIR}/models/clip" "${CLIP_MODELS[@]}"
+    provisioning_get_files "${COMFYUI_DIR}/models/style_models" "${STYLE_MODELS[@]}"
+    provisioning_get_files "${COMFYUI_DIR}/models/pulid" "${PULID_MODELS[@]}"
     provisioning_print_end
 }
 

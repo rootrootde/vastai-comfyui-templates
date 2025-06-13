@@ -38,6 +38,7 @@ NODES=(
     "https://github.com/JPS-GER/ComfyUI_JPS-Nodes" # 📁 JPS-GER/ComfyUI_JPS-Nodes
     "https://github.com/sipherxyz/comfyui-art-venture" # 📁 sipherxyz/comfyui-art-venture
     "https://github.com/Jonseed/ComfyUI-Detail-Daemon" # 📁 Jonseed/ComfyUI-Detail-Daemon
+    "https://github.com/ltdrdata/was-node-suite-comfyui" # 📁 ltdrdata/was-node-suite-comfyui
 )
 
 WORKFLOWS=(
