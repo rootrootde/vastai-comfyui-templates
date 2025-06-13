@@ -24,6 +24,7 @@ NODES=(
     "https://github.com/MoonGoblinDev/Civicomfy" # 📁 MoonGoblinDev/Civicomfy
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack" # 📁 ltdrdata/ComfyUI-Impact-Pack
     "https://github.com/yolain/ComfyUI-Easy-Use" # 📁 yolain/ComfyUI-Easy-Use
+    "https://github.com/fairy-root/Flux-Prompt-Generator" # 📁 fairy-root/Flux-Prompt-Generator
     "https://github.com/welltop-cn/ComfyUI-TeaCache" # 📁 welltop-cn/ComfyUI-TeaCache
     "https://github.com/cubiq/PuLID_ComfyUI" # 📁 cubiq/PuLID_ComfyUI
     "https://github.com/shiimizu/ComfyUI-TiledDiffusion" # 📁 shiimizu/ComfyUI-TiledDiffusion
