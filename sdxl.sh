@@ -27,6 +27,7 @@ NODES=(
     "https://github.com/yolain/ComfyUI-Easy-Use" # 📁 yolain/ComfyUI-Easy-Use
     "https://github.com/fairy-root/Flux-Prompt-Generator" # 📁 fairy-root/Flux-Prompt-Generator
     "https://github.com/welltop-cn/ComfyUI-TeaCache" # 📁 welltop-cn/ComfyUI-TeaCache
+    "https://github.com/taches-ai/comfyui-scene-composer" # 📁 taches-ai/comfyui-scene-composer
 )
 
 WORKFLOWS=(
@@ -37,7 +38,6 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors" # stabilityai/stable-diffusion-xl-base-1.0 - sd_xl_base_1.0_0.9vae.safetensors
     "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors" # stabilityai/stable-diffusion-xl-refiner-1.0 - sd_xl_refiner_1.0_0.9vae.safetensors
     "https://civitai.com/api/download/models/1759168" # 🎨 Juggernaut XL (Ragnarok_by_RunDiffusion) by Unknown
-    "https://civitai.com/api/download/models/1761560" # 🎨 WAI-NSFW-illustrious-SDXL (v14.0) by Unknown
 )
 
 UNET_MODELS=(
