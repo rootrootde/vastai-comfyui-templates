@@ -35,6 +35,9 @@ NODES=(
     "https://github.com/alexopus/ComfyUI-Image-Saver" # 📁 alexopus/ComfyUI-Image-Saver
     "https://github.com/Fannovel16/comfyui_controlnet_aux" # 📁 Fannovel16/comfyui_controlnet_aux
     "https://github.com/lldacing/ComfyUI_PuLID_Flux_ll" # 📁 lldacing/ComfyUI_PuLID_Flux_ll
+    "https://github.com/JPS-GER/ComfyUI_JPS-Nodes" # 📁 JPS-GER/ComfyUI_JPS-Nodes
+    "https://github.com/sipherxyz/comfyui-art-venture" # 📁 sipherxyz/comfyui-art-venture
+    "https://github.com/Jonseed/ComfyUI-Detail-Daemon" # 📁 Jonseed/ComfyUI-Detail-Daemon
 )
 
 WORKFLOWS=(
