@@ -61,7 +61,8 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/ByteDance/SDXL-Lightning" # 🤗 ByteDance/SDXL-Lightning
     "https://civitai.com/api/download/models/1759168" # 🎨 Juggernaut XL (Ragnarok_by_RunDiffusion) by Unknown
     "https://civitai.com/api/download/models/1761560" # 🎨 WAI-NSFW-illustrious-SDXL (v14.0) by Unknown
-    "https://civitai.com/api/download/models/1888952" # 🎨 iLustMix (v7.0 Cinematic) by Unknown
+    "https://civitai.com/api/download/models/1882322?type=Model&format=SafeTensor&size=full&fp=fp8" # 🎨 Wan2.1_14B_FusionX (FusionX_Image2Video) by Unknown
+    "https://civitai.com/api/download/models/1868891?type=Model&format=SafeTensor&size=full&fp=fp8" # 🎨 Wan2.1_14B_FusionX (FusionX_Text2Video) by Unknown
 )
 
 UNET_MODELS=(
