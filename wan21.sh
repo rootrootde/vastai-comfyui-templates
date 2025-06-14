@@ -55,6 +55,7 @@ WORKFLOWS=(
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/1882322?type=Model&format=SafeTensor&size=full&fp=fp8" # 🎨 Wan2.1_14B_FusionX (FusionX_Image2Video) by Unknown
     "https://civitai.com/api/download/models/1868891?type=Model&format=SafeTensor&size=full&fp=fp8" # 🎨 Wan2.1_14B_FusionX (FusionX_Text2Video) by Unknown
+    "https://huggingface.co/Comfy-Org/ACE-Step_ComfyUI_repackaged/resolve/main/all_in_one/ace_step_v1_3.5b.safetensors?download=true" # 🤗 ace_step_v1_3.5b.safetensors
 )
 
 UNET_MODELS=(
@@ -100,6 +101,8 @@ CLIP_VISION_MODELS=(
 )
 
 TEXT_ENCODER_MODELS=(
+    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true" # 🤗 umt5_xxl_fp8_e4m3fn_scaled.safetensors
+    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors" # 🤗 umt5_xxl_fp16.safetensors
     "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors?download=true" # 🤗 t5xxl_fp8_e4m3fn_scaled.safetensors
 )
 
