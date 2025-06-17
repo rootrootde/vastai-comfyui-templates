@@ -60,11 +60,17 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
+    "https://civitai.com/api/download/models/738866?type=Model&format=SafeTensor" # Definitive Disney Studios - STYLE - | Illustrious XL | PONY | FLUX | - by YeiyeiArt
     "https://civitai.com/api/download/models/780667?type=Model&format=SafeTensor" # FLUX NSFW unlock
+    "https://civitai.com/api/download/models/1244911?type=Model&format=SafeTensor" # FLUX [pro] 1.1 Style Lora - Extreme Detailer for [FLUX + ILLUSTRIOUS]
+    "https://civitai.com/api/download/models/746602?type=Model&format=SafeTensor" # NSFW MASTER FLUX
+    "https://civitai.com/api/download/models/1041921?type=Model&format=SafeTensor" # Perfect Round Ass SD1.5/SDXL/FLUX | olaz
+    "https://civitai.com/api/download/models/1782533?type=Model&format=SafeTensor" # [Flux/Pony] Perfect Full Round Breasts & Slim Waist
+    "https://civitai.com/api/download/models/1228102?type=Model&format=SafeTensor" # better faces cultures sdxl/FLUX
 )
 
 VAE_MODELS=(
-
+    "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/vae/ae.safetensors?download=true" # ae.safetensors?download=true
 )
 
 ESRGAN_MODELS=(
