@@ -104,8 +104,6 @@ CLIP_VISION_MODELS=(
 )
 
 TEXT_ENCODER_MODELS=(
-    "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/clip_g_hidream.safetensors?download=true" # clip_g_hidream.safetensors?download=true
-    "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/clip_l_hidream.safetensors?download=true" # clip_l_hidream.safetensors?download=true
     "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors?download=true" # t5xxl_fp8_e4m3fn_scaled.safetensors?download=true
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors" # umt5_xxl_fp16.safetensors
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true" # umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true
@@ -127,7 +125,7 @@ STYLE_MODELS=(
 )
 
 PULID_MODELS=(
-    "https://huggingface.co/UmeAiRT/ComfyUI-Auto_installer/resolve/main/models/pulid/pulid_flux_v0.9.0.safetensors?download=true" # pulid_flux_v0.9.0.safetensors?download=true
+
 )
 
 ULTRALYTICS_MODELS=(
