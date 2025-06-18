@@ -36,8 +36,10 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/1761560" # WAI-NSFW-illustrious-SDXL
+    "https://civitai.com/api/download/models/1899516?type=Model&format=SafeTensor&size=pruned&fp=fp16" # CyberRealistic Pony Catalyst
     "https://civitai.com/api/download/models/1888952?type=Model&format=SafeTensor&size=pruned&fp=fp16" # iLustMix
+    "https://civitai.com/api/download/models/1838857?type=Model&format=SafeTensor&size=pruned&fp=fp16" # CyberRealistic Pony
+    "https://civitai.com/api/download/models/1871475?type=Model&format=SafeTensor&size=pruned&fp=fp16" # CyberRealistic Pony Semi-Realistic
 )
 
 UNET_MODELS=(
