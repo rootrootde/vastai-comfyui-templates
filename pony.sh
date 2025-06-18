@@ -47,7 +47,14 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
-
+    "https://civitai.com/api/download/models/856243?type=Model&format=SafeTensor" # Adjusting clothes
+    "https://civitai.com/api/download/models/520909?type=Model&format=SafeTensor" # Body Type Slider - Pony / Illustrious
+    "https://civitai.com/api/download/models/534952?type=Model&format=SafeTensor" # Breast Size Slider - Pony / Illustrious
+    "https://civitai.com/api/download/models/712947?type=Model&format=SafeTensor" # Detail Slider LoRA | PonyXL SDXL
+    "https://civitai.com/api/download/models/593526?type=Model&format=SafeTensor" # Guided Breast Grab | LoRA
+    "https://civitai.com/api/download/models/722613?type=Model&format=SafeTensor" # Mating press
+    "https://civitai.com/api/download/models/517898?type=Model&format=SafeTensor" # Penis Size Slider - Pony/Illustrious
+    "https://civitai.com/models/61099/fluxpony-perfect-full-round-breasts-and-slim-waist?modelVersionId=692326" # [Flux/Pony] Perfect Full Round Breasts & Slim Waist
 )
 
 VAE_MODELS=(
