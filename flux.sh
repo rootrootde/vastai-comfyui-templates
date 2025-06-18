@@ -52,7 +52,9 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-
+    "https://civitai.com/api/download/models/768009?type=Model&format=SafeTensor&size=pruned&fp=fp8" # Flux Unchained by SCG
+    "https://civitai.com/api/download/models/1761560" # WAI-NSFW-illustrious-SDXL
+    "https://civitai.com/api/download/models/1888952?type=Model&format=SafeTensor&size=pruned&fp=fp16" # iLustMix
 )
 
 UNET_MODELS=(
