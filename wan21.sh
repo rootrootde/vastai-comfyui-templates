@@ -105,7 +105,7 @@ TEXT_ENCODER_MODELS=(
 )
 
 DIFFUSION_MODELS=(
-    "https://civitai.com/api/download/models/1882322?type=Model&format=SafeTensor&size=full&fp=fp8" # Wan2.1_14B_FusionX
+    "https://civitai.com/models/1651125?modelVersionId=1868891" # Wan2.1_14B_FusionX
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_fp16.safetensors?download=true" # wan2.1_i2v_480p_14B_fp16.safetensors?download=true
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors?download=true" # wan2.1_t2v_1.3B_fp16.safetensors?download=true
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp16.safetensors" # wan2.1_t2v_14B_fp16.safetensors
