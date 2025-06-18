@@ -18,6 +18,7 @@ PIP_PACKAGES=(
 
 NODES=(
     "https://github.com/FlyingFireCo/tiled_ksampler"
+    "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/crystian/ComfyUI-Crystools" # 📁 crystian/ComfyUI-Crystools
     "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
     "https://github.com/MoonGoblinDev/Civicomfy" # 📁 MoonGoblinDev/Civicomfy
