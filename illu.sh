@@ -4,7 +4,7 @@ source /venv/main/bin/activate
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Configure parallel downloads (set to 1 to disable parallel downloading)
-MAX_PARALLEL_DOWNLOADS=${MAX_PARALLEL_DOWNLOADS:-12}
+MAX_PARALLEL_DOWNLOADS=${MAX_PARALLEL_DOWNLOADS:-8}
 
 # Packages are installed after nodes so we can fix them...
 
@@ -17,17 +17,15 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/crystian/ComfyUI-Crystools" # 📁 crystian/ComfyUI-Crystools
-    "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+    "https://github.com/chrisgoringe/cg-use-everywhere"
+    "https://github.com/AIrjen/OneButtonPrompt" # 📁 AIrjen/OneButtonPrompt
     "https://github.com/MoonGoblinDev/Civicomfy" # 📁 MoonGoblinDev/Civicomfy
-    "https://github.com/city96/ComfyUI-GGUF" # 📁 city96/ComfyUI-GGUF
     "https://github.com/lgldlk/ComfyUI-PC-ding-dong" # 📁 lgldlk/ComfyUI-PC-ding-dong
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack" # 📁 ltdrdata/ComfyUI-Impact-Pack
-    "https://github.com/ltdrdata/was-node-suite-comfyui" # 📁 ltdrdata/was-node-suite-comfyui
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts" # 📁 pythongosssss/ComfyUI-Custom-Scripts
     "https://github.com/rgthree/rgthree-comfy" # 📁 rgthree/rgthree-comfy
+    "https://github.com/shiimizu/ComfyUI-TiledDiffusion" # 📁 shiimizu/ComfyUI-TiledDiffusion
     "https://github.com/yolain/ComfyUI-Easy-Use" # 📁 yolain/ComfyUI-Easy-Use
-    "https://github.com/excelwong/ComfyUI-PromptComposer"
 )
 
 WORKFLOWS=(
@@ -35,7 +33,6 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/1761560" # WAI-NSFW-illustrious-SDXL
     "https://civitai.com/api/download/models/1888952?type=Model&format=SafeTensor&size=pruned&fp=fp16" # iLustMix
 )
 
@@ -44,7 +41,15 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
-
+    "https://civitai.com/api/download/models/1858609?type=Model&format=SafeTensor" # Ass Size Slider - Pony / Illustrious
+    "https://civitai.com/api/download/models/1226551?type=Model&format=SafeTensor" # Balls Deep / Deep(er) Penetration
+    "https://civitai.com/api/download/models/1785482?type=Model&format=SafeTensor" # Better detailed pussy and anus
+    "https://civitai.com/api/download/models/1845953?type=Model&format=SafeTensor" # Body Type Slider - Pony / Illustrious
+    "https://civitai.com/api/download/models/1712361?type=Model&format=SafeTensor" # Concept Larger insertion (more girth) vaginal
+    "https://civitai.com/api/download/models/1690589?type=Negative&format=Other" # CyberRealistic Negative - Pony v2.0
+    "https://civitai.com/api/download/models/1477814?type=Model&format=SafeTensor" # CyberRealistic Positive (Pony)
+    "https://civitai.com/api/download/models/1596979?type=Model&format=SafeTensor" # POV Missionary-Raised Legs | LoRA
+    "https://civitai.com/api/download/models/1831724?type=Model&format=SafeTensor" # Penis Size Slider - Pony/Illustrious
 )
 
 VAE_MODELS=(
@@ -60,8 +65,6 @@ UPSCALE_MODELS=(
     "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth" # 4x-UltraSharp.pth
     "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NMKD-Siax_200k.pth" # 4x_NMKD-Siax_200k.pth
     "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_Nickelback_70000G.pth" # 4x_Nickelback_70000G.pth
-    "https://huggingface.co/spaces/Marne/Real-ESRGAN/blob/main/RealESRGAN_x4plus.pth" # 🤗 RealESRGAN_x4plus.pth
-    "https://huggingface.co/spaces/Marne/Real-ESRGAN/blob/main/RealESRGAN_x4plus_anime_6B.pth" # 🤗 RealESRGAN_x4plus_anime_6B.pth
 )
 
 CONTROLNET_MODELS=(
