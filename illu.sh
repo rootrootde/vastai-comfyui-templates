@@ -4,7 +4,7 @@ source /venv/main/bin/activate
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Configure parallel downloads (set to 1 to disable parallel downloading)
-MAX_PARALLEL_DOWNLOADS=${MAX_PARALLEL_DOWNLOADS:-8}
+MAX_PARALLEL_DOWNLOADS=${MAX_PARALLEL_DOWNLOADS:-1}
 
 # Packages are installed after nodes so we can fix them...
 
@@ -64,7 +64,6 @@ UPSCALE_MODELS=(
     "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/1x-ITF-SkinDiffDetail-Lite-v1.pth" # 1x-ITF-SkinDiffDetail-Lite-v1.pth
     "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth" # 4x-UltraSharp.pth
     "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NMKD-Siax_200k.pth" # 4x_NMKD-Siax_200k.pth
-    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_Nickelback_70000G.pth" # 4x_Nickelback_70000G.pth
 )
 
 CONTROLNET_MODELS=(
