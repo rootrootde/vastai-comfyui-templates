@@ -17,7 +17,6 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/AIrjen/OneButtonPrompt" # 📁 AIrjen/OneButtonPrompt
     "https://github.com/MoonGoblinDev/Civicomfy" # 📁 MoonGoblinDev/Civicomfy
     "https://github.com/lgldlk/ComfyUI-PC-ding-dong" # 📁 lgldlk/ComfyUI-PC-ding-dong
