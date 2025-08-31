@@ -44,7 +44,6 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/798204" # RealVisXL V5.0
     "https://civitai.com/models/1110783/ilustmix?modelVersionId=2110275" # iLustMix
     "https://civitai.com/models/1110783?modelVersionId=1670263" # iLustMix
     "https://civitai.com/models/1110783?modelVersionId=1757828" # iLustMix
