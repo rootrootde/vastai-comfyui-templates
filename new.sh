@@ -112,11 +112,11 @@ PULID_MODELS=(
 )
 
 ULTRALYTICS_MODELS=(
-
+    "https://huggingface.co/Bingsu/adetailer/resolve/main/hand_yolov8s.pt" # hand_yolov8s.pt
 )
 
 SAM_MODELS=(
-
+    "https://huggingface.co/datasets/Gourieff/ReActor/resolve/main/models/sams/sam_vit_b_01ec64.pth" # sam_vit_b_01ec64.pth
 )
 
 
