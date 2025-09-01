@@ -21,14 +21,15 @@ NODES=(
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/Gourieff/comfyui-reactor-node"
     "https://github.com/LAOGOU-666/Comfyui-Memory_Cleanup"
+    "https://github.com/alexopus/ComfyUI-Image-Saver"
     "https://github.com/aria1th/ComfyUI-LogicUtils"
-    "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/ltdrdata/was-node-suite-comfyui"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/willmiao/ComfyUI-Lora-Manager"
     "https://github.com/AIrjen/OneButtonPrompt" # 📁 AIrjen/OneButtonPrompt
     "https://github.com/MoonGoblinDev/Civicomfy" # 📁 MoonGoblinDev/Civicomfy
     "https://github.com/lgldlk/ComfyUI-PC-ding-dong" # 📁 lgldlk/ComfyUI-PC-ding-dong
@@ -60,10 +61,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1785482?type=Model&format=SafeTensor" # Better detailed pussy and anus
     "https://civitai.com/api/download/models/1845953?type=Model&format=SafeTensor" # Body Type Slider - Pony / Illustrious
     "https://civitai.com/api/download/models/1712361?type=Model&format=SafeTensor" # Concept Larger insertion (more girth) vaginal
-    "https://civitai.com/api/download/models/1690589?type=Negative&format=Other" # CyberRealistic Negative - Pony v2.0
-    "https://civitai.com/api/download/models/1477814?type=Model&format=SafeTensor" # CyberRealistic Positive (Pony)
     "https://civitai.com/api/download/models/1596979?type=Model&format=SafeTensor" # POV Missionary-Raised Legs | LoRA
-    "https://civitai.com/api/download/models/1831724?type=Model&format=SafeTensor" # Penis Size Slider - Pony/Illustrious
 )
 
 VAE_MODELS=(
