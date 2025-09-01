@@ -44,6 +44,7 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
+    "https://civitai.com/models/24350/perfectdeliberate?modelVersionId=2001227" # PerfectDeliberate
     "https://civitai.com/models/1110783/ilustmix?modelVersionId=2110275" # iLustMix
     "https://civitai.com/models/1110783?modelVersionId=1670263" # iLustMix
     "https://civitai.com/models/1110783?modelVersionId=1757828" # iLustMix
