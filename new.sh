@@ -38,6 +38,8 @@ NODES=(
     "https://github.com/rgthree/rgthree-comfy" # 📁 rgthree/rgthree-comfy
     "https://github.com/shiimizu/ComfyUI-TiledDiffusion" # 📁 shiimizu/ComfyUI-TiledDiffusion
     "https://github.com/yolain/ComfyUI-Easy-Use" # 📁 yolain/ComfyUI-Easy-Use
+    "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
 )
 
 WORKFLOWS=(
